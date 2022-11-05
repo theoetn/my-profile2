@@ -36,15 +36,6 @@ a:hover{
 	margin: 50px auto;
 }
 
-@media(max-width: 500px){
-	.container{
-		background-color: red;
-	}
-}
-
-
-
-
 .card-white{
 	background-color: white;
 	padding: 40px;
@@ -84,8 +75,15 @@ a:hover{
 	color: black;
 }
 
-@media (max-width: 720px) {
-	.container{
-		background-color: red;
-	}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
 }
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
